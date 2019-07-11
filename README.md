@@ -1,2 +1,2 @@
 # LeetCodeEveryDay
-This is my plan to make leetcode
+这里是我LeetCode打卡记录
