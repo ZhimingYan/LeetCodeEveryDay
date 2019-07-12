@@ -11,11 +11,11 @@ public:
     int firstBadVersion(int n) {
         int l = 1, r = n;
         while(l < r){
-            int mid =(((long)l + (long)r))/2;
+            int mid =((l + 0ll+r))>>1;
             if(isBadVersion(mid)) r = mid;
             else l = mid+1;
         }
-        return (int)l;
+        return l;
     }
 };
 
