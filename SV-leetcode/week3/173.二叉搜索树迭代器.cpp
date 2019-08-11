@@ -24,8 +24,6 @@ public:
             s.push(p);
             p = p->left;
         }
-        
-        
     }
     
     /** @return the next smallest number */
@@ -46,7 +44,6 @@ public:
     /** @return whether we have a next smallest number */
     bool hasNext() {
         return !s.empty();
-
     }
 };
 
